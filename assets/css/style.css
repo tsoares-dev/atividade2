@@ -70,6 +70,7 @@ html {
 #page-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 img na mesma coluna */
+  text-align: center;
 
 }
 
@@ -136,3 +137,52 @@ height:250px;
   text-align: center;
   text-transform: uppercase;
 }
+
+#list-ol {
+  width: 100%;
+  padding: 15px;
+  background: #eee;
+  color: black;
+}
+
+.list-ol-container {
+  justify-content: center;
+  padding: 15px;
+  font-size: 30px;
+  display: grid;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+#list-ul {
+  width: 100%;
+  padding: 15px;
+  background: #eee;
+  color: black;
+}
+
+.list-ul-container {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  display: grid;
+  position: relative; /* se adequa ao tamanho da página */
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#img-sobre{
+  width: 100%;
+  text-align: center;
+
+}
+
+/* .img-container {
+  
+} */
